@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itesm.mx.red_de_contactos.MainActivity">
+
+
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="Voz"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:id="@+id/btnVoz"
+        app:cub_border_radius = "0dp"
+        app:cub_color="#212121"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:textColor="@android:color/white"
+        android:text="Contactos"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:id="@+id/btnContactos"
+        app:cub_border_radius = "0dp"
+        app:cub_color="#2196F3"
+        android:layout_marginTop="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:textColor="@android:color/white"
+        android:text="Emergencia"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:id="@+id/btnEmergencia"
+        app:cub_border_radius = "0dp"
+        app:cub_color="#F44336"
+        android:layout_alignBaseline="@+id/btnContactos"
+        android:layout_alignBottom="@+id/btnContactos"
+        android:layout_toEndOf="@+id/btnProvedores" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:textColor="@android:color/white"
+        android:text="Provedores"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:id="@+id/btnProvedores"
+        app:cub_border_radius = "0dp"
+        app:cub_color="#8BC34A"
+        android:layout_below="@+id/btnContactos"
+        android:layout_alignParentStart="true" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:textColor="@android:color/white"
+        android:text="Personal Medico"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:id="@+id/btnPersonal"
+        app:cub_border_radius = "0dp"
+        app:cub_color="#673AB7"
+        android:layout_alignBaseline="@+id/btnProvedores"
+        android:layout_alignBottom="@+id/btnProvedores"
+        android:layout_toEndOf="@+id/btnProvedores" />
+
+
+
+
+</RelativeLayout>
